@@ -1,0 +1,34 @@
+.bg {
+    background-color: var(--pink);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ananas {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, 7%) rotate(-10deg);
+    
+}
+.about {
+    margin: 200px;
+}
+
+.about-title {
+    font-size: 45px;
+    font-weight: 700;
+    width: 15ch;
+    line-height: 45px;
+    margin: 10px 0;
+}
+.orange {
+    color: var(--light-orange);
+}
+
+.about-text {
+    width: 40ch;
+    font-size: 25px;
+    line-height: 25px;
+}
